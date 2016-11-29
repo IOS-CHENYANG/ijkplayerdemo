@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A95265C41DE3060C006B24DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A95265C31DE3060C006B24DB /* main.m */; };
+		A95265C71DE3060C006B24DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A95265C61DE3060C006B24DB /* AppDelegate.m */; };
+		A95265CA1DE3060C006B24DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A95265C91DE3060C006B24DB /* ViewController.m */; };
+		A95265CD1DE3060C006B24DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A95265CB1DE3060C006B24DB /* Main.storyboard */; };
+		A95265CF1DE3060C006B24DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A95265CE1DE3060C006B24DB /* Assets.xcassets */; };
+		A95265D21DE3060C006B24DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A95265D01DE3060C006B24DB /* LaunchScreen.storyboard */; };
+		A95265DD1DE3060C006B24DB /* YodPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A95265DC1DE3060C006B24DB /* YodPlayerTests.m */; };
+		A95265E81DE3060C006B24DB /* YodPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A95265E71DE3060C006B24DB /* YodPlayerUITests.m */; };
+		A95265F61DE307E7006B24DB /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A95265F51DE307E7006B24DB /* IJKMediaFramework.framework */; };
+		A95265FA1DE3DD2A006B24DB /* YodPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A95265F91DE3DD2A006B24DB /* YodPlayer.m */; };
+		A95265FD1DE3E933006B24DB /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A95265FC1DE3E933006B24DB /* PlayerViewController.m */; };
+		A95265FF1DE3EB14006B24DB /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A95265FE1DE3EB14006B24DB /* VideoToolbox.framework */; };
+		A95266011DE3EB23006B24DB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A95266001DE3EB23006B24DB /* QuartzCore.framework */; };
+		A95266031DE3EB30006B24DB /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A95266021DE3EB30006B24DB /* OpenGLES.framework */; };
+		A95266051DE3EB3C006B24DB /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A95266041DE3EB3C006B24DB /* MobileCoreServices.framework */; };
+		A95266071DE3EB67006B24DB /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A95266061DE3EB66006B24DB /* MediaPlayer.framework */; };
+		A95266091DE3EC98006B24DB /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A95266081DE3EC98006B24DB /* CoreVideo.framework */; };
+		A952660B1DE3ECA5006B24DB /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A952660A1DE3ECA5006B24DB /* CoreMedia.framework */; };
+		A952660D1DE3ECB3006B24DB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A952660C1DE3ECB3006B24DB /* CoreGraphics.framework */; };
+		A952660F1DE3ECC2006B24DB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A952660E1DE3ECC2006B24DB /* AVFoundation.framework */; };
+		A95266111DE3ECCD006B24DB /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A95266101DE3ECCD006B24DB /* AudioToolbox.framework */; };
+		A95266131DE3ECD6006B24DB /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A95266121DE3ECD6006B24DB /* libz.tbd */; };
+		A95266151DE3ECE5006B24DB /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A95266141DE3ECE5006B24DB /* libbz2.tbd */; };
+		A95266171DE3ECEF006B24DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A95266161DE3ECEF006B24DB /* UIKit.framework */; };
+		A952661A1DE3F254006B24DB /* NSObject+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A95266191DE3F254006B24DB /* NSObject+Extension.m */; };
+		A952661D1DE42398006B24DB /* YodPlayerControl.m in Sources */ = {isa = PBXBuildFile; fileRef = A952661C1DE42398006B24DB /* YodPlayerControl.m */; };
+		A95266221DE43FFC006B24DB /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A952661F1DE43FFC006B24DB /* BaseNavigationController.m */; };
+		A95266231DE43FFC006B24DB /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A95266211DE43FFC006B24DB /* MainTabBarController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A95265D91DE3060C006B24DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A95265B71DE3060C006B24DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A95265BE1DE3060C006B24DB;
+			remoteInfo = YodPlayer;
+		};
+		A95265E41DE3060C006B24DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A95265B71DE3060C006B24DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A95265BE1DE3060C006B24DB;
+			remoteInfo = YodPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A95265BF1DE3060C006B24DB /* YodPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YodPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A95265C31DE3060C006B24DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A95265C51DE3060C006B24DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A95265C61DE3060C006B24DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A95265C81DE3060C006B24DB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A95265C91DE3060C006B24DB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A95265CC1DE3060C006B24DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A95265CE1DE3060C006B24DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A95265D11DE3060C006B24DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A95265D31DE3060C006B24DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A95265D81DE3060C006B24DB /* YodPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YodPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A95265DC1DE3060C006B24DB /* YodPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YodPlayerTests.m; sourceTree = "<group>"; };
+		A95265DE1DE3060C006B24DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A95265E31DE3060C006B24DB /* YodPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YodPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A95265E71DE3060C006B24DB /* YodPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YodPlayerUITests.m; sourceTree = "<group>"; };
+		A95265E91DE3060C006B24DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A95265F51DE307E7006B24DB /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		A95265F81DE3DD2A006B24DB /* YodPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YodPlayer.h; sourceTree = "<group>"; };
+		A95265F91DE3DD2A006B24DB /* YodPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YodPlayer.m; sourceTree = "<group>"; };
+		A95265FB1DE3E933006B24DB /* PlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
+		A95265FC1DE3E933006B24DB /* PlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerViewController.m; sourceTree = "<group>"; };
+		A95265FE1DE3EB14006B24DB /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		A95266001DE3EB23006B24DB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A95266021DE3EB30006B24DB /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		A95266041DE3EB3C006B24DB /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		A95266061DE3EB66006B24DB /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		A95266081DE3EC98006B24DB /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		A952660A1DE3ECA5006B24DB /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		A952660C1DE3ECB3006B24DB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A952660E1DE3ECC2006B24DB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A95266101DE3ECCD006B24DB /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A95266121DE3ECD6006B24DB /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		A95266141DE3ECE5006B24DB /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		A95266161DE3ECEF006B24DB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A95266181DE3F254006B24DB /* NSObject+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Extension.h"; sourceTree = "<group>"; };
+		A95266191DE3F254006B24DB /* NSObject+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Extension.m"; sourceTree = "<group>"; };
+		A952661B1DE42398006B24DB /* YodPlayerControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YodPlayerControl.h; sourceTree = "<group>"; };
+		A952661C1DE42398006B24DB /* YodPlayerControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YodPlayerControl.m; sourceTree = "<group>"; };
+		A952661E1DE43FFC006B24DB /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		A952661F1DE43FFC006B24DB /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		A95266201DE43FFC006B24DB /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
+		A95266211DE43FFC006B24DB /* MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A95265BC1DE3060C006B24DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A95266171DE3ECEF006B24DB /* UIKit.framework in Frameworks */,
+				A95266151DE3ECE5006B24DB /* libbz2.tbd in Frameworks */,
+				A95266131DE3ECD6006B24DB /* libz.tbd in Frameworks */,
+				A95266111DE3ECCD006B24DB /* AudioToolbox.framework in Frameworks */,
+				A952660F1DE3ECC2006B24DB /* AVFoundation.framework in Frameworks */,
+				A952660D1DE3ECB3006B24DB /* CoreGraphics.framework in Frameworks */,
+				A952660B1DE3ECA5006B24DB /* CoreMedia.framework in Frameworks */,
+				A95266091DE3EC98006B24DB /* CoreVideo.framework in Frameworks */,
+				A95266071DE3EB67006B24DB /* MediaPlayer.framework in Frameworks */,
+				A95266051DE3EB3C006B24DB /* MobileCoreServices.framework in Frameworks */,
+				A95266031DE3EB30006B24DB /* OpenGLES.framework in Frameworks */,
+				A95266011DE3EB23006B24DB /* QuartzCore.framework in Frameworks */,
+				A95265FF1DE3EB14006B24DB /* VideoToolbox.framework in Frameworks */,
+				A95265F61DE307E7006B24DB /* IJKMediaFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A95265D51DE3060C006B24DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A95265E01DE3060C006B24DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A95265B61DE3060C006B24DB = {
+			isa = PBXGroup;
+			children = (
+				A95266161DE3ECEF006B24DB /* UIKit.framework */,
+				A95266141DE3ECE5006B24DB /* libbz2.tbd */,
+				A95266121DE3ECD6006B24DB /* libz.tbd */,
+				A95266101DE3ECCD006B24DB /* AudioToolbox.framework */,
+				A952660E1DE3ECC2006B24DB /* AVFoundation.framework */,
+				A952660C1DE3ECB3006B24DB /* CoreGraphics.framework */,
+				A952660A1DE3ECA5006B24DB /* CoreMedia.framework */,
+				A95266081DE3EC98006B24DB /* CoreVideo.framework */,
+				A95266061DE3EB66006B24DB /* MediaPlayer.framework */,
+				A95266041DE3EB3C006B24DB /* MobileCoreServices.framework */,
+				A95266021DE3EB30006B24DB /* OpenGLES.framework */,
+				A95266001DE3EB23006B24DB /* QuartzCore.framework */,
+				A95265FE1DE3EB14006B24DB /* VideoToolbox.framework */,
+				A95265F51DE307E7006B24DB /* IJKMediaFramework.framework */,
+				A95265C11DE3060C006B24DB /* YodPlayer */,
+				A95265DB1DE3060C006B24DB /* YodPlayerTests */,
+				A95265E61DE3060C006B24DB /* YodPlayerUITests */,
+				A95265C01DE3060C006B24DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A95265C01DE3060C006B24DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A95265BF1DE3060C006B24DB /* YodPlayer.app */,
+				A95265D81DE3060C006B24DB /* YodPlayerTests.xctest */,
+				A95265E31DE3060C006B24DB /* YodPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A95265C11DE3060C006B24DB /* YodPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				A95265C51DE3060C006B24DB /* AppDelegate.h */,
+				A95265C61DE3060C006B24DB /* AppDelegate.m */,
+				A952661E1DE43FFC006B24DB /* BaseNavigationController.h */,
+				A952661F1DE43FFC006B24DB /* BaseNavigationController.m */,
+				A95266201DE43FFC006B24DB /* MainTabBarController.h */,
+				A95266211DE43FFC006B24DB /* MainTabBarController.m */,
+				A95265C81DE3060C006B24DB /* ViewController.h */,
+				A95265C91DE3060C006B24DB /* ViewController.m */,
+				A95265FB1DE3E933006B24DB /* PlayerViewController.h */,
+				A95265FC1DE3E933006B24DB /* PlayerViewController.m */,
+				A95265F81DE3DD2A006B24DB /* YodPlayer.h */,
+				A95265F91DE3DD2A006B24DB /* YodPlayer.m */,
+				A952661B1DE42398006B24DB /* YodPlayerControl.h */,
+				A952661C1DE42398006B24DB /* YodPlayerControl.m */,
+				A95265CB1DE3060C006B24DB /* Main.storyboard */,
+				A95265CE1DE3060C006B24DB /* Assets.xcassets */,
+				A95265D01DE3060C006B24DB /* LaunchScreen.storyboard */,
+				A95265D31DE3060C006B24DB /* Info.plist */,
+				A95265C21DE3060C006B24DB /* Supporting Files */,
+			);
+			path = YodPlayer;
+			sourceTree = "<group>";
+		};
+		A95265C21DE3060C006B24DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A95266181DE3F254006B24DB /* NSObject+Extension.h */,
+				A95266191DE3F254006B24DB /* NSObject+Extension.m */,
+				A95265C31DE3060C006B24DB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A95265DB1DE3060C006B24DB /* YodPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A95265DC1DE3060C006B24DB /* YodPlayerTests.m */,
+				A95265DE1DE3060C006B24DB /* Info.plist */,
+			);
+			path = YodPlayerTests;
+			sourceTree = "<group>";
+		};
+		A95265E61DE3060C006B24DB /* YodPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A95265E71DE3060C006B24DB /* YodPlayerUITests.m */,
+				A95265E91DE3060C006B24DB /* Info.plist */,
+			);
+			path = YodPlayerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A95265BE1DE3060C006B24DB /* YodPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A95265EC1DE3060C006B24DB /* Build configuration list for PBXNativeTarget "YodPlayer" */;
+			buildPhases = (
+				A95265BB1DE3060C006B24DB /* Sources */,
+				A95265BC1DE3060C006B24DB /* Frameworks */,
+				A95265BD1DE3060C006B24DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YodPlayer;
+			productName = YodPlayer;
+			productReference = A95265BF1DE3060C006B24DB /* YodPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A95265D71DE3060C006B24DB /* YodPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A95265EF1DE3060C006B24DB /* Build configuration list for PBXNativeTarget "YodPlayerTests" */;
+			buildPhases = (
+				A95265D41DE3060C006B24DB /* Sources */,
+				A95265D51DE3060C006B24DB /* Frameworks */,
+				A95265D61DE3060C006B24DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A95265DA1DE3060C006B24DB /* PBXTargetDependency */,
+			);
+			name = YodPlayerTests;
+			productName = YodPlayerTests;
+			productReference = A95265D81DE3060C006B24DB /* YodPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A95265E21DE3060C006B24DB /* YodPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A95265F21DE3060C006B24DB /* Build configuration list for PBXNativeTarget "YodPlayerUITests" */;
+			buildPhases = (
+				A95265DF1DE3060C006B24DB /* Sources */,
+				A95265E01DE3060C006B24DB /* Frameworks */,
+				A95265E11DE3060C006B24DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A95265E51DE3060C006B24DB /* PBXTargetDependency */,
+			);
+			name = YodPlayerUITests;
+			productName = YodPlayerUITests;
+			productReference = A95265E31DE3060C006B24DB /* YodPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A95265B71DE3060C006B24DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = cyy;
+				TargetAttributes = {
+					A95265BE1DE3060C006B24DB = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					A95265D71DE3060C006B24DB = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A95265BE1DE3060C006B24DB;
+					};
+					A95265E21DE3060C006B24DB = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A95265BE1DE3060C006B24DB;
+					};
+				};
+			};
+			buildConfigurationList = A95265BA1DE3060C006B24DB /* Build configuration list for PBXProject "YodPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A95265B61DE3060C006B24DB;
+			productRefGroup = A95265C01DE3060C006B24DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A95265BE1DE3060C006B24DB /* YodPlayer */,
+				A95265D71DE3060C006B24DB /* YodPlayerTests */,
+				A95265E21DE3060C006B24DB /* YodPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A95265BD1DE3060C006B24DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A95265D21DE3060C006B24DB /* LaunchScreen.storyboard in Resources */,
+				A95265CF1DE3060C006B24DB /* Assets.xcassets in Resources */,
+				A95265CD1DE3060C006B24DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A95265D61DE3060C006B24DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A95265E11DE3060C006B24DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A95265BB1DE3060C006B24DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A952661D1DE42398006B24DB /* YodPlayerControl.m in Sources */,
+				A95265CA1DE3060C006B24DB /* ViewController.m in Sources */,
+				A95266231DE43FFC006B24DB /* MainTabBarController.m in Sources */,
+				A95265C71DE3060C006B24DB /* AppDelegate.m in Sources */,
+				A95265C41DE3060C006B24DB /* main.m in Sources */,
+				A95266221DE43FFC006B24DB /* BaseNavigationController.m in Sources */,
+				A95265FA1DE3DD2A006B24DB /* YodPlayer.m in Sources */,
+				A95265FD1DE3E933006B24DB /* PlayerViewController.m in Sources */,
+				A952661A1DE3F254006B24DB /* NSObject+Extension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A95265D41DE3060C006B24DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A95265DD1DE3060C006B24DB /* YodPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A95265DF1DE3060C006B24DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A95265E81DE3060C006B24DB /* YodPlayerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A95265DA1DE3060C006B24DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A95265BE1DE3060C006B24DB /* YodPlayer */;
+			targetProxy = A95265D91DE3060C006B24DB /* PBXContainerItemProxy */;
+		};
+		A95265E51DE3060C006B24DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A95265BE1DE3060C006B24DB /* YodPlayer */;
+			targetProxy = A95265E41DE3060C006B24DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A95265CB1DE3060C006B24DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A95265CC1DE3060C006B24DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A95265D01DE3060C006B24DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A95265D11DE3060C006B24DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A95265EA1DE3060C006B24DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A95265EB1DE3060C006B24DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A95265ED1DE3060C006B24DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = YodPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yod.YodPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A95265EE1DE3060C006B24DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = YodPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yod.YodPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A95265F01DE3060C006B24DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YodPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yod.YodPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YodPlayer.app/YodPlayer";
+			};
+			name = Debug;
+		};
+		A95265F11DE3060C006B24DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YodPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yod.YodPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YodPlayer.app/YodPlayer";
+			};
+			name = Release;
+		};
+		A95265F31DE3060C006B24DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YodPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yod.YodPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YodPlayer;
+			};
+			name = Debug;
+		};
+		A95265F41DE3060C006B24DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YodPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yod.YodPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YodPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A95265BA1DE3060C006B24DB /* Build configuration list for PBXProject "YodPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A95265EA1DE3060C006B24DB /* Debug */,
+				A95265EB1DE3060C006B24DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A95265EC1DE3060C006B24DB /* Build configuration list for PBXNativeTarget "YodPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A95265ED1DE3060C006B24DB /* Debug */,
+				A95265EE1DE3060C006B24DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A95265EF1DE3060C006B24DB /* Build configuration list for PBXNativeTarget "YodPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A95265F01DE3060C006B24DB /* Debug */,
+				A95265F11DE3060C006B24DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A95265F21DE3060C006B24DB /* Build configuration list for PBXNativeTarget "YodPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A95265F31DE3060C006B24DB /* Debug */,
+				A95265F41DE3060C006B24DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A95265B71DE3060C006B24DB /* Project object */;
+}
